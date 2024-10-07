@@ -66,9 +66,9 @@ To obtain an API key from TMDB, sign up at [The Movie Database](https://www.them
 
 ## Screenshots
 
-![Home Page](screenshots/home-page.png)
-![Login Page](screenshots/login-page.png)
 ![Netflix clone](screenshots/netflix-clone.gif)
+
+![Login Page](screenshots/login-page.png)
 
 For more screenshots, please check the 'screenshots' folder.
 
