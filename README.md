@@ -83,5 +83,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vite](https://vitejs.)
-
-free to replace any placeholder text or paths with actual images or details relevant to your project!
