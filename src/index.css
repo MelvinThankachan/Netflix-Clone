@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white font-semibold font-sans;
+}
+
+.content {
+  @apply px-10 lg:px-[10vh] xl:px-[20vh] 2xl:px-[30vh] w-screen;
+}
+
+.hero-height {
+  @apply h-[60vh] lg:h-[70vh] xl:h-[90vh];
+}
+
+.trending::-webkit-scrollbar {
+  display: none;
+}
+
+.trending {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.section {
+  @apply bg-black flex flex-col gap-5 py-5;
+}
+
+.section-heading {
+  @apply text-2xl xl:text-4xl;
+}
+
+.footer-links {
+  @apply underline cursor-pointer;
+}
+
+.text-outline {
+  text-shadow: 2px 2px 0 white, -2px -2px 0 white, 2px -2px 0 white,
+    -2px 2px 0 white;
+}
+
+.scroll-arrow {
+  @apply top-0 absolute z-10 py-28 px-2 h-full bg-black;
+
+  .scroll-arrow-button {
+    @apply text-black text-6xl text-center h-full rounded-xl bg-white bg-opacity-20;
+  }
+}
